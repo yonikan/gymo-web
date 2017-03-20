@@ -7,11 +7,10 @@ var bodyParser = require('body-parser');
 // var mongoose = require('mongoose');
 
 var appRoutes = require('./routes/app');
-
 var app = express();
 // mongoose.connect('test-user:yonikan11@ds035059.mlab.com:35059/yonikan-db');
 
-// view engine setup
+
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'hbs');
 
