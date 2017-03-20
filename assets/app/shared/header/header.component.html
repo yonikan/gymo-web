@@ -1,0 +1,84 @@
+
+<div class="app-header navbar-md white box-shadow">
+    <div class="navbar">
+
+          <!-- brand -->
+          <div>
+            <div class="navbar-brand">
+              <img src="../../assets/images/logo.png" >
+              <span class="inline">Gymo</span>
+          </div>
+          </div>
+          <!-- /brand -->
+
+          <!-- nabar right -->
+          <ul class="nav navbar-nav pull-right">
+            <!-- <li class="nav-item">
+              <a class="nav-link">
+                <span><i class="fa fa-fw fa-arrows-v"></i></span>
+              </a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <div class="nav-link" >
+                <i class="material-icons">&#xe7f5;</i>
+                <span class="label up p-a-0 warn"></span>
+              </div>
+              <!-- <div ui-include="'../views/blocks/dropdown.notification.html'"></div> -->
+            </li>
+            <li class="nav-item dropdown">
+              <a href class="nav-link dropdown-toggle clear" data-toggle="dropdown">
+                <span class="avatar w-32">
+                  <a [routerLink]="['/profile']">
+                    <img src="../../assets/images/a1.jpg" alt="...">
+                    <i class="on b-white bottom"></i>
+                  </a>
+
+                  <!-- <i class="busy b-white right"></i> -->
+                </span>
+              </a>
+            </li>
+          </ul>
+          <!-- / navbar right -->
+
+          <form class="navbar-form form-inline pull-right pull-none-sm navbar-item v-m ng-pristine ng-valid ng-scope" role="search">
+            <div class="form-group l-h m-a-0">
+              <div class="input-group">
+                <input type="text" class="form-control form-control-sm p-x b-a rounded" placeholder="Search projects...">
+              </div>
+            </div>
+          </form>
+
+          <!-- <div class="p-y">
+            <div class="av-active-border left b-primary"> -->
+                <ul class="nav navbar-nav pull-left">
+                      <li routerLinkActive="active" class="nav-item">
+                       <a [routerLink]="['/home']" class="nav-link"  >
+                         <span class="nav-text">Home</span>
+                       </a>
+                     </li>
+                     <li routerLinkActive="active" class="nav-item">
+                      <a [routerLink]="['/dashboard']" class="nav-link" >
+                        <span class="nav-text">Dashboard</span>
+                      </a>
+                    </li>
+                    <li routerLinkActive="active" class="nav-item">
+                          <a [routerLink]="['/charts']" class="nav-link" >
+                            <span class="nav-text">Charts</span>
+                          </a>
+                    </li>
+                    <li routerLinkActive="active" class="nav-item">
+                          <a [routerLink]="['/members']" class="nav-link" >
+                            <span class="nav-text">Members</span>
+                          </a>
+                    </li>
+                    <li routerLinkActive="active" class="nav-item">
+                          <a [routerLink]="['/contact']" class="nav-link">
+                            <span class="nav-text">Contact</span>
+                          </a>
+                    </li>
+                </ul>
+            <!-- </div>
+          </div> -->
+
+    </div>
+</div>
