@@ -9,6 +9,7 @@ declare var firebase: any;
 @Injectable()
 export class AuthService {
     constructor(private router: Router) {
+        
     }
 
     signupUser(user: User) {
