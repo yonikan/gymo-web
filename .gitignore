@@ -1,16 +1,7 @@
-lib-cov
-*.seed
-*.log
-*.csv
-*.dat
-*.out
-*.pid
-*.gz
 
-pids
+*.log
+*.gz
 logs
-results
-build
 
 node_modules
 public/js
